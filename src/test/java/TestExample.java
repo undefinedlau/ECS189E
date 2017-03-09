@@ -28,4 +28,6 @@ public class TestExample {
         this.admin.createClass("Test", 2016, "Instructor", 15);
         assertFalse(this.admin.classExists("Test", 2016));
     }
+
+
 }
